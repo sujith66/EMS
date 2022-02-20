@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header matches the snapshot to check if the component renders correctly 1`] = `
+<header
+  className="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1lir7g8-MuiPaper-root-MuiAppBar-root"
+  onClick={[Function]}
+>
+  Endpoints Manager
+</header>
+`;
