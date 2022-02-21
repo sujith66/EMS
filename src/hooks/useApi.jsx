@@ -1,7 +1,7 @@
-import { useCallback, useEffect, useState } from "react"
+import { useCallback, useEffect, useState } from "react";
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://jsonplaceholder.typicode.com';
+// axios.defaults.baseURL = 'https://api.mockaroo.com/api/08100050?count=1000&key=3e2ade60';
 
 const useApi = (params) => {
   

@@ -16,9 +16,7 @@ function ActionReducer(state, action) {
 }
 
 function ActionProvider({ children }) {
-  const [state, dispatch] = React.useReducer(ActionReducer, { actions: [] });
-  // NOTE: you *might* need to memoize this value
-  // Learn more in http://kcd.im/optimize-context
+  const [state, dispatch] = React.useReducer(ActionReducer, { actions: [] });  
   const value = { state, actionDispatch: dispatch };
   return (
     <ActionContext.Provider value={value}>{children}</ActionContext.Provider>

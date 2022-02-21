@@ -14,8 +14,7 @@ function DeviceReducer(state, action) {
 
 function DeviceProvider({children}) {
   const [state, dispatch] = React.useReducer(DeviceReducer, {selectedDeviceCards: []})
-  // NOTE: you *might* need to memoize this value
-  // Learn more in http://kcd.im/optimize-context
+  
   const value = {state, deviceDispatch: dispatch}
   return <DeviceContext.Provider value={value}>{children}</DeviceContext.Provider>
 }

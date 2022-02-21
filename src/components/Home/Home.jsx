@@ -25,7 +25,8 @@ export default function Home() {
   // const { data } = useApi(
   //   "https://api.mockaroo.com/api/08100050?count=1000&key=3e2ade60"
   // );
-
+  
+//Hard coded the data as the api url was not working
   const endpointDevices = [
     { id: 1, deviceName: "TX123412", os: "windows" },
     { id: 2, deviceName: "FX473412", os: "ios" },
@@ -69,7 +70,6 @@ export default function Home() {
             <Typography
               variant="h5"
               align="left"
-              classes="text-color"
               paragraph
             >
               Available endpoints
